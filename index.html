@@ -39,16 +39,65 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Features</a>
+                <a class="nav-link text-white" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Pricing</a>
+                <a class="nav-link text-white" href="#">Our Activity</a>
               </li>
             </ul>
           </div>
         </div>
+        <button
+          type="button"
+          class="btn btn-outline-light me-3"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          REGISTER
+        </button>
       </nav>
     </header>
+
+    <!-- modal----------------------------------------- -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              welcome register
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            possimus iste molestiae voluptatem beatae. Perferendis, quo!
+            Voluptas, nemo at possimus autem hic eaque harum culpa, illum unde
+            sapiente eius. Corporis.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              lorem
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- caruselllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
     <div id="carouselExample" class="carousel slide">
@@ -126,21 +175,18 @@
         </div>
       </section>
       <!-- section second ------------------------------------------------------->
+      <!-- head----------------------------------------- -->
+      <div class="col-12 m-3">
+        <h1 class="text-center h3">Our Activities</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam
+          id nostrum sint ipsum illo necessitatibus fugiat, ipsam aut sed eos
+          modi quasi odio, itaque vel? Odit cum suscipit vel!
+        </p>
+      </div>
+      <!-- body---------------------------------------- -->
       <section class="row">
-        <div class="col-lg-3 col-sm-6 col-12">
-          <div class="card" >
-            <img src="./img/activity.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12 mb-2">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -153,7 +199,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -166,7 +212,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -179,7 +225,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -192,7 +238,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -205,7 +251,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -218,7 +264,20 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 col-12">
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
+          <div class="card">
+            <img src="./img/activity.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb-2 col-12">
           <div class="card">
             <img src="./img/activity.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
